@@ -1,13 +1,17 @@
 <script>
-import helloVue from "./components/HelloWorld.vue";
+import helloVue from "./components/AppTitle.vue";
+
+import helloHero from "./components/AppHero.vue";
 
 export default {
   components: {
-    helloVue
+    helloVue,
+    helloHero
   }
 }
 </script>
 
 <template>
   <helloVue />
+  <helloHero />
 </template>
